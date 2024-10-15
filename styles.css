@@ -1,5 +1,12 @@
 /* styles.css */
 
+/*CSS Reset*/
+nav, main, footer {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
 /* style rules for the nav */
 /* laptop view */
 nav {
@@ -30,4 +37,25 @@ nav ul li {
     border-radius: 0.6em;
     margin: 0.4em;
     box-shadow: 7em;
+}
+
+main {
+    background-color: #fff9ed;
+    text-align: center;   
+}
+
+/*Style rules for Footer*/
+footer {
+    background-color: #286855;
+}
+
+footer p .copyright {
+    font-size: 0.75em;
+    text-align: center;
+    color: #FFF9ED;
+    width: 75%;
+}
+
+footer {
+    
 }
