@@ -1,10 +1,33 @@
 /* styles.css */
 
 /* style rules for the nav */
+/* laptop view */
 nav {
     background-color: blue;
 }
 
 nav ul {
     list-style-type: none;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    overflow: hidden;
+    
+    margin: 0;
+    
+    background-color: blue;
+    padding: 1em;
+    margin-right: 20px;
+    display: inline;
+}
+
+nav ul li {
+    display: block;
+    float: right;
+    padding: 0.8em 0.9em;
+    background-color: green;
+    border-radius: 0.6em;
+    margin: 0.4em;
+    box-shadow: 7em;
 }
