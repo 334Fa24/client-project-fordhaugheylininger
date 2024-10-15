@@ -1,0 +1,10 @@
+/* styles.css */
+
+/* style rules for the nav */
+nav {
+    background-color: blue;
+}
+
+nav ul {
+    list-style-type: none;
+}
