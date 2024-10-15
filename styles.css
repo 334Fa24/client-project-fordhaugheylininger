@@ -8,3 +8,8 @@ nav {
 nav ul {
     list-style-type: none;
 }
+
+main {
+    background-color: #fff9ed;
+    text-align: center;   
+}
