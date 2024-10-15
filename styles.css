@@ -1,5 +1,12 @@
 /* styles.css */
 
+/*CSS Reset*/
+nav, main, footer {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
 /* style rules for the nav */
 nav {
     background-color: blue;
@@ -18,3 +25,12 @@ main {
 footer {
     background-color: #286855;
 }
+
+footer p .copyright {
+    font-size: 0.75em;
+    text-align: center;
+    color: #FFF9ED;
+    width: 75%;
+}
+
+footer 
