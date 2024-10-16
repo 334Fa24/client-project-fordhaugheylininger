@@ -39,10 +39,18 @@ nav ul li {
     box-shadow: 7em;
 }
 
+/*Style rules for Main*/
 main {
     background-color: #fff9ed;
-    text-align: center;   
+    text-align: center;
 }
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+
 
 /*Style rules for Footer*/
 footer {
