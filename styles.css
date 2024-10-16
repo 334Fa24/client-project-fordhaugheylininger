@@ -43,6 +43,13 @@ nav ul li {
 main {
     background-color: #fff9ed;
     text-align: center;
+    font-family: Jost;
+    color: #5C755E;
+    padding: 10px;
+}
+
+top {
+    border: 2px #5C755E;
 }
 
 img {
@@ -50,10 +57,23 @@ img {
     display: block;
 }
 
-body {
-    font-family: Jost;
-    font-size: 1em;
+.column {
+    float: left;
+    width: 33.33%;
 }
+
+.row:after {
+    content: '';
+    display: table;
+    clear: both;
+    background-color: #5C755E;
+}
+
+/*Media query for mobile viewport*/
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
 
 /*Style rules for Footer*/
 footer {
