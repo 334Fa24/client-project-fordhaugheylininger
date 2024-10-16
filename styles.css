@@ -50,7 +50,10 @@ img {
     display: block;
 }
 
-
+body {
+    font-family: Jost;
+    font-size: 1em;
+}
 
 /*Style rules for Footer*/
 footer {
