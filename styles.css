@@ -73,20 +73,53 @@ img {
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
-  }
+}
 
 /*Style rules for Footer*/
-footer {
-    background-color: #286855;
-}
-
-footer p .copyright {
-    font-size: 0.75em;
-    text-align: center;
-    color: #FFF9ED;
-    width: 75%;
-}
-
-footer {
+    /*Desktop View*/
     
-}
+    .footer {
+        background-color: #286855;
+        color: #fff9ed;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        font-size: 0.75em;
+        font-family: Jost;
+    }
+
+    .footer-left {
+        flex: 1;
+    }
+    
+    .footer-center {
+        flex: 1;
+        text-align: center;       
+    }
+
+    .footer-right {
+        flex: 1;
+        text-align: right;
+    }
+
+    .contact-btn {
+        background-color: #fff9ed;
+        color: #286855;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 5px;
+    }
+    
+    .contact-btn:hover {
+        background-color: #286855;
+        color: #fff9ed;
+    }
+    
+    .footer-right p {
+        margin: 0;
+    }
