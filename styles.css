@@ -48,10 +48,6 @@ main {
     padding: 10px;
 }
 
-top {
-    border: 2px #5C755E;
-}
-
 img {
     max-width: 100%;
     display: block;
