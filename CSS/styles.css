@@ -91,6 +91,7 @@ main {
     color: #5C755E;
     padding: 10px;
     padding-top: 86px;
+    width: 100%;
 }
 
 img {
@@ -115,53 +116,68 @@ img {
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
+    }
 }
 
 /*Style rules for Footer*/
     /*Desktop View*/
-    
+.footer {
+    background-color: #5C755E;
+    color: #fff9ed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    bottom: 0;
+    width: 96%;
+    font-family: Jost;
+}
+
+.footer-left {
+    flex: 1;
+}
+
+.footer-center {
+    flex: 1;
+    text-align: center;
+}
+
+.footer-right {
+    flex: 1;
+    text-align: justify;
+    padding-right: 20px;
+}
+
+.contact-btn {
+    background-color: #fff9ed;
+    color: #5C755E;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.contact-btn:hover {
+    background-color: #5C755E;
+    color: #fff9ed;
+    font-weight: bolder;
+    border: solid;
+    border-color: #fff9ed;
+}
+
+
+
+/*Media Query for Mobile Viewport*/
+@media screen and (max-width: 600px) {
     .footer {
-        background-color: #286855;
-        color: #fff9ed;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 20px;
-        position: fixed;
-        bottom: 0;
         width: 100%;
-        font-size: 0.75em;
-        font-family: Jost;
-    }
-
-    .footer-left {
-        flex: 1;
+        font-size: 8px;
+        flex-direction: column;
+        text-align: center;
     }
     
-    .footer-center {
-        flex: 1;
-        text-align: center;       
-    }
-
-    .footer-right {
-        flex: 1;
-        text-align: right;
-    }
-
     .contact-btn {
-        background-color: #fff9ed;
-        color: #286855;
-        border: none;
-        padding: 10px 20px;
-        font-size: 16px;
-        border-radius: 5px;
+        font-size: 8px;
+        padding: 5px 5px; 
     }
-    
-    .contact-btn:hover {
-        background-color: #286855;
-        color: #fff9ed;
-    }
-    
-    .footer-right p {
-        margin: 0;
-    }
+}
