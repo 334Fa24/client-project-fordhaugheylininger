@@ -7,6 +7,11 @@ header, nav, main, footer {
     border: 0;
 }
 
+/*Style rules for the Header*/
+header {
+    width: 100%;
+    background-color: #5c755e;
+}
 /* style rules for the nav */
 /* laptop view */
 nav {
@@ -29,12 +34,6 @@ nav ul {
     justify-content: flex-end;
     
     filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
-}
-
-/*Style rules for Header*/
-header {
-    width: 100%;
-    background-color: #5c755e;
 }
 
 nav ul li {
