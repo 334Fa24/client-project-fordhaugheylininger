@@ -104,6 +104,15 @@ img {
     display: block;
 }
 
+img .column-right {
+    display: block;
+    max-width: 50%;
+}
+
+h1 .reviews {
+    text-align: left;
+}
+
 /*Style rules for 3 column layout*/
 .column {
     float: left;
@@ -112,6 +121,20 @@ img {
 
 .row:after {
     content: '';
+    display: table;
+    clear: both;
+    background-color: #5C755E;
+}
+
+/*Style rules for 2 column layout*/
+.column-2 {
+    float: left;
+    width: 50%;
+}
+
+/*Clear floats after the column*/
+.row:after {
+    content: "";
     display: table;
     clear: both;
     background-color: #5C755E;
