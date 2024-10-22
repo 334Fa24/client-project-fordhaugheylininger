@@ -2,7 +2,7 @@
 
 /*CSS Reset*/
 header, nav, main, footer {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     border: 0;
 }
@@ -119,6 +119,11 @@ h1 .reviews {
     width: 33.33%;
 }
 
+
+.business-hours {
+    width: 50%;
+}
+
 .row:after {
     content: '';
     display: table;
@@ -126,6 +131,7 @@ h1 .reviews {
     background-color: #5C755E;
 }
 
+<<<<<<< Updated upstream
 /*Style rules for 2 column layout*/
 .column-2 {
     float: left;
@@ -139,6 +145,8 @@ h1 .reviews {
     clear: both;
     background-color: #5C755E;
 }
+=======
+>>>>>>> Stashed changes
 
 /*Media query for mobile viewport*/
 @media screen and (max-width: 600px) {
