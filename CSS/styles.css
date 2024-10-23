@@ -151,6 +151,20 @@ h1 .reviews {
     background-color: #5C755E;
 }
 
+.FAQ1 {
+    padding: 5px;
+    text-align: left;
+    background-color: #5C755E;
+    color: #fff9ed   
+}
+
+.FAQ2 {
+    padding: 5px;
+    text-align: left;
+    background-color: #fff9ed;
+    color: #5C755E    
+}
+
 
 /*Media query for mobile viewport*/
 @media screen and (max-width: 600px) {
