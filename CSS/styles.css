@@ -104,10 +104,15 @@ img {
     display: block;
 }
 
+h2 {
+    text-align: center;
+}
+
 /*Style rules for 3 column layout*/
 .column {
     float: left;
     width: 33.33%;
+    text-align: left;
 }
 
 .row:after {
@@ -121,6 +126,7 @@ img {
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
+    text-align: center;
     }
 }
 
