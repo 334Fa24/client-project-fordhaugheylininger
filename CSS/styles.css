@@ -2,7 +2,7 @@
 
 /*CSS Reset*/
 header, nav, main, footer {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     border: 0;
 }
@@ -108,11 +108,25 @@ h2 {
     text-align: center;
 }
 
+img .column-right {
+    display: block;
+    max-width: 50%;
+}
+
+h1 .reviews {
+    text-align: left;
+}
+
 /*Style rules for 3 column layout*/
 .column {
     float: left;
     width: 33.33%;
     text-align: left;
+}
+
+
+.business-hours {
+    width: 50%;
 }
 
 .row:after {
@@ -121,6 +135,22 @@ h2 {
     clear: both;
     background-color: #5C755E;
 }
+
+
+/*Style rules for 2 column layout*/
+.column-2 {
+    float: left;
+    width: 50%;
+}
+
+/*Clear floats after the column*/
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    background-color: #5C755E;
+}
+
 
 /*Media query for mobile viewport*/
 @media screen and (max-width: 600px) {
