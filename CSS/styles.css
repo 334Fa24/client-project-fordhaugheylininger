@@ -257,6 +257,55 @@ button {
 }
 
 
+/*style rules for about us page*/
+.our-story {
+    display: block;
+    background-color: #5C755E 0.5;
+}
+
+.promo-banner {
+    background-color: red;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 10px 0 20px 0;
+    
+}
+
+/*Style rules for contact page*/
+.booking {
+    background-color: #5C755E;
+    color: #fff9ed;
+}
+
+.booking label, .booking input{
+    
+    padding-left: 19px;
+    padding: 5px;
+}
+
+input [type=text]{
+    width: 40%;
+    background-color: #fff;
+    color: white;
+    padding: 12px 20px;
+    margin: 8px;
+    border: none;
+    border-radius: 4px;
+}
+
+input {
+    margin: 8px;
+    border-radius: 4px;
+    border: none;
+    padding: 10px 20px;
+    width: 50%
+}
+
+label {
+    float: left;
+}
+
 /*Media query for mobile viewport*/
 @media screen and (max-width: 628px) {
   .container {
