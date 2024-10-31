@@ -193,19 +193,41 @@ h1 .reviews {
     background-color: #5C755E 0.5;
 }
 
+/*Style rules for contact page*/
 .promo-banner {
-    background-color: red;
-    left: 0;
-    right: 0;
-    width: 100%;
-    padding: 10px 0 20px 0;
-    
+    background-color: #c92727;
+    margin: 40px 0;
+    padding: 10px;
+    color: #fff9ed;
 }
 
-/*Style rules for contact page*/
-.booking {
+.hours {
+    border: solid black 2px;
+    border-radius: 7px;
+    margin: 0 10%;
+}
+
+.book-w-us {
+    background-color: #A97D5D;
+    color: #fff9ed;
+    padding: 20px;
+    margin: 20px 0 10px 0;
+}
+
+.booking, .review {
     background-color: #5C755E;
     color: #fff9ed;
+    border-radius: 7px;
+    margin: 40px 30% 40px 20px;
+    padding: 10px 0 20px 0;
+    
+    outline: solid #5C755E 2px;
+    outline-offset: 13px;
+}
+
+.booking h3, .review h3 {
+    background-color: rgba(255, 249, 237, 0.3);
+    padding: 15px;
 }
 
 .booking label, .booking input{
@@ -214,26 +236,35 @@ h1 .reviews {
     padding: 5px;
 }
 
-input [type=text]{
-    width: 40%;
-    background-color: #fff;
-    color: white;
-    padding: 12px 20px;
-    margin: 8px;
-    border: none;
-    border-radius: 4px;
-}
-
 input {
     margin: 8px;
     border-radius: 4px;
     border: none;
     padding: 10px 20px;
-    width: 50%
+    width: 50%;
 }
 
 label {
-    float: left;
+}
+
+.review {
+    margin: 20px;
+    background-color: #A97D5D;
+    outline: none;
+}
+
+.subbut {
+    padding: 10px;
+    margin: 20px 30%;
+    border-radius: 6px;
+    background-color: #fff9ed;
+    color: #412d2d;
+    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.subbut:hover {
+    background-color: #d4cbbb;
 }
 
 /*Media query for mobile viewport*/

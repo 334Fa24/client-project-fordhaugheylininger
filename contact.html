@@ -37,11 +37,11 @@
                 
                 <div class="promo-banner">
                     <h4>Special Offer: First-time customers get 20% off their first grooming session!</h4>
-                    <button><a><!--Send to bottom of page or wherever--></a>Book Now!</button>
+                    <p class="subbut" onclick="scrollToBottom()">Book Now!</p>
                 </div>
         
             
-                <div class="row">                   
+                <div class="row hours">                   
                     <div class="column-2">
                         <h3>Business Hours:</h3>
                         <p>Monday-Friday: 8am-6pm</p>
@@ -56,9 +56,12 @@
                     </div>
                 </div>
                 
-                <h2>Book With Us!</h2>
+                <div class="book-w-us">
+                    <h2>Book With Us!</h2>
                 
-                <p>*Please Book your appointment at least 2 weeks in advance!*</p>
+                    <p>*Please Book your appointment at least 2 weeks in advance!*</p>
+                </div>
+                
                 
                 <div class="booking">
                     
@@ -115,31 +118,30 @@
                                 </div>
                             </div>
                             
-                            <input type="submit" value="submit">
+                            <p class="subbut">Submit</p>
 
                         </form>
                     
                     </div>
                     
-                    <div class="booking-col">
-                        <h2 href="">Write us a Review!</h2> <!-- link this to the botto of the page wherever the review spot is-->
-                    </div>
-                    
-                    <div>
-                        <form>
-                            <h3>Let us know how we did!</h3>
-                            
-                            <label for="rat">Rating (out of 10):</label><br>
-                            <input type="text" id="rat" name="rat" value=""><br>
-                            
-                            <label for="rev">Review:</label><br>
-                            <input type="text" id="rev" name="rev" value="">
-                        
-                        </form>
-                    </div>
-                    
                 </div>
                 
+                <div class="review" id="bottom">
+                    <h2 href="">Write us a Review!</h2> <!-- link this to the botto of the page wherever the review spot is-->
+                    
+                    <form>
+                        <h3>Let us know how we did!</h3>
+                        
+                        <label for="rat">Rating (out of 10):</label><br>
+                        <input type="text" id="rat" name="rat" value=""><br>
+                            
+                        <label for="rev">Review:</label><br>
+                        <input type="text" id="rev" name="rev" value="">
+                        
+                        <p class="subbut">Submit</p>
+                        
+                    </form>
+                </div>
                   
             </main>
             
