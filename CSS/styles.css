@@ -34,6 +34,8 @@ nav ul {
     justify-content: flex-end;
     
     filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+    
+    z-index: 3;
 }
 
 nav ul li {
@@ -59,6 +61,7 @@ ul li .logo {
     left: 30px;
     top: 0;
     filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.35));
+    
 }
 
 .mobile-logo {
@@ -70,6 +73,7 @@ ul li .logo {
     top: 0;
     filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
     position: fixed;
+    z-index: 4;
 }
 
 /*Media query for mobile viewport*/
@@ -258,24 +262,104 @@ button {
 
 
 /*style rules for about us page*/
+.about-row {
+    background-color: #5C755E;
+    color: #fff9ed;
+    border-radius: 7px;
+    margin: 40px 30% 40px 20px;
+    padding: 10px 20px;
+    padding-right: 40px;
+    
+    outline: solid #5C755E 2px;
+    outline-offset: 13px;
+}
+
+.paw-printy {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    
+    right: -150px;
+    top: 700px;
+    z-index: 1;
+}
+
 .our-story {
     display: block;
     background-color: #5C755E 0.5;
 }
 
-.promo-banner {
-    background-color: red;
-    left: 0;
-    right: 0;
-    width: 100%;
-    padding: 10px 0 20px 0;
+.pep {
+    margin: 60px 20px;
+    background-color: #A97D5D;
+    padding: 10px;
+    border-radius: 7px;
+    color: #fff9ed;
     
+    outline: solid #a97d5d 2px;
+    outline-offset: 13px;
 }
 
+
 /*Style rules for contact page*/
-.booking {
+.promo-banner {
+    background-color: #c92727;
+    margin: 40px 0;
+    padding: 10px;
+    color: #fff9ed;
+}
+
+.hours {
+    border: solid #5C755E 2px;
+    border-radius: 7px;
+    margin: 0 10%;
+}
+
+.book-w-us {
+    background-color: #A97D5D;
+    color: #fff9ed;
+    padding: 20px;
+    margin: 20px 0 10px 0;
+}
+
+.booking, .review {
     background-color: #5C755E;
     color: #fff9ed;
+    border-radius: 7px;
+    margin: 40px 30% 40px 20px;
+    padding: 10px 0 20px 0;
+    
+    outline: solid #5C755E 2px;
+    outline-offset: 13px;
+}
+
+.paw-print {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    
+    right: -150px;
+    top: 1500px;
+    z-index: 1;
+}
+
+.rev {
+    position: absolute;
+    
+    right: 25px;
+    z-index: 1;
+    
+    top: 1300px;
+    background-color: #A97D5D;
+    color: #fff9ed;
+    padding: 30px 20px;
+    border-radius: 5px;
+}
+
+.booking h3, .review h3 {
+    background-color: rgba(255, 249, 237, 0.3);
+    padding: 15px;
+    
 }
 
 .booking label, .booking input{
@@ -284,26 +368,68 @@ button {
     padding: 5px;
 }
 
-input [type=text]{
-    width: 40%;
-    background-color: #fff;
-    color: white;
-    padding: 12px 20px;
-    margin: 8px;
-    border: none;
-    border-radius: 4px;
-}
-
 input {
     margin: 8px;
     border-radius: 4px;
     border: none;
     padding: 10px 20px;
-    width: 50%
+    width: 50%;
 }
 
 label {
-    float: left;
+}
+
+.review {
+    margin: 60px 20px;
+    background-color: #A97D5D;
+    outline: none;
+}
+
+.subbut {
+    padding: 10px;
+    margin: 20px 30%;
+    border-radius: 6px;
+    background-color: #fff9ed;
+    color: #412d2d;
+    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.subbut:hover {
+    background-color: #d4cbbb;
+}
+
+/*Media query for mobile viewport of contact page*/
+@media screen and (max-width: 628px) {
+    .hours {
+        border: none;
+    }
+    
+    .hours .column-2 {
+        border: solid #5C755E 2px;
+        border-radius: 7px;
+        width: 90%;
+        margin: 10px;
+        float: left;
+    }
+    
+    .about-row {
+        float: center;
+        margin: 35px;
+    }
+    
+    .rev {
+        display: none;
+    }
+    
+    .paw-print, .paw-printy{
+        display: none;
+    }
+    
+    .booking {
+        display: block;
+        width: 90%;
+    }
 }
 
 /*Media query for mobile viewport*/
