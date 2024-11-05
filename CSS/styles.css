@@ -38,7 +38,7 @@ nav ul {
     z-index: 3;
 }
 
-nav ul li {
+nav ul li{
     display: block;
     float: right;
     padding: 0.8em 0.9em;
@@ -48,6 +48,14 @@ nav ul li {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     font-family: Jost;
     text-align: center;
+    
+    color: #5c755e;
+    text-decoration: none;
+}
+
+nav a {
+    color: #5c755e;
+    text-decoration: none;
 }
 
 nav ul li:hover {
