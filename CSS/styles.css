@@ -163,15 +163,18 @@ ul {
     text-align: left;
 }
 
-button {
+a .special, .contact {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
     margin-bottom: 50px;
-    margin-top: 50px;
+    margin-top: 5%;
     padding: 10px;
     font-size: 20px;
     background-color: #5C755E;
     color: #fff9ed;
     border-radius: 15px;
-    border-color: #5C755E;
+    border: none;
     box-shadow: 5px 5px 8px #A97D5D;
 }
 
@@ -341,7 +344,7 @@ h1 {
 
 .our-story {
     display: block;
-    background-color: #5C755E 0.5;
+    background-color: #5C755E;
 }
 
 .pep {
@@ -500,7 +503,7 @@ input {
     }
     
     .about-row {
-        float: center;
+        align-items: center;
         margin: 35px;
     }
     
