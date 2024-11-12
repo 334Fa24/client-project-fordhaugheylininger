@@ -163,7 +163,7 @@ main {
     font-family: Jost;
     color: #5C755E;
     padding: 10px;
-    padding-top: 86px;
+    padding-top: 40px;
     width: 100%;
     overflow-x: hidden;
 }
@@ -392,10 +392,12 @@ h1 {
     background-color: #5C755E;
     color: #fff9ed;
     padding: 40px;
+    margin: 100px 0
 }
 
 .pep {
-    margin: 60px 20px;
+    margin: 20px;
+    margin-bottom: 100px;
     background-color: #A97D5D;
     padding: 10px;
     border-radius: 7px;
@@ -439,6 +441,8 @@ h1 {
     border: solid #5C755E 2px;
     border-radius: 7px;
     margin: 0 10%;
+    margin-top: 60px;
+    margin-bottom: 30px;
 }
 
 .book-w-us {
@@ -457,6 +461,14 @@ h1 {
     
     outline: solid #5C755E 2px;
     outline-offset: 13px;
+}
+
+.pay {
+    padding: 30px;
+}
+
+.ftforms {
+    padding: 80px;
 }
 
 .paw-print {
