@@ -125,7 +125,7 @@ ul li .logo {
     }
     
     .mob-nav {
-        display: block;
+        display: none;
         background-color: #5C755E;
         margin: 0;
         margin-bottom: 20px;
@@ -141,7 +141,7 @@ ul li .logo {
         padding-right: 20px;
 
         z-index: 5;
-        filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+        box-shadow: 0 4px 4px -4px rgba(0, 0, 0, 0.5);
     }
     
     .mob-nav a {
