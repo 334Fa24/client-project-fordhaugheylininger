@@ -31,7 +31,7 @@ nav {
 
 nav ul {
     list-style-type: none;
-    width: 100%;
+    width: 98%;
     top: 0;
     left: 0;
     position: fixed;
@@ -354,6 +354,15 @@ h1 {
 
 
 /*style rules for about us page*/
+.bioig {
+    padding: 50px;
+}
+
+.thanks-man {
+    padding-top: 150px;
+    padding-bottom: 200px;
+}
+
 .about-row {
     background-color: #5C755E;
     color: #fff9ed;
@@ -372,7 +381,7 @@ h1 {
     height: 400px;
     
     right: -150px;
-    top: 750px;
+    top: 850px;
     z-index: 1;
     
     overflow: hidden;
@@ -381,6 +390,8 @@ h1 {
 .our-story {
     display: block;
     background-color: #5C755E;
+    color: #fff9ed;
+    padding: 40px;
 }
 
 .pep {
@@ -405,7 +416,7 @@ h1 {
     
     top: 94px;
     left: 0;
-    width: 97%;
+    width: 99%;
     position: fixed;
     
     z-index: 5;
