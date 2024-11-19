@@ -212,21 +212,28 @@ a .special, .contact {
     margin-top: 5%;
     padding: 10px;
     font-size: 20px;
-    background-color: #5C755E;
-    color: #fff9ed;
+    background-color: #A97D5D;
+    color: #fff;
     border-radius: 15px;
     border: none;
     box-shadow: 5px 5px 8px #A97D5D;
+    text-decoration: none;
 }
 
 h1 {
-    padding-top: 5%;
+    padding-top: 0;
+}
+
+#extras h1 {
+    color: #A97D5D;
 }
 
 #introduction h1 {
     font-weight: bolder;
     font-size: 3em;
     margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 0;
 }
 
 #introduction h3 {
@@ -648,6 +655,7 @@ input {
     padding: 10px 20px;
     font-size: 16px;
     border-radius: 5px;
+    text-decoration: none;
 }
 
 .contact-btn:hover {
