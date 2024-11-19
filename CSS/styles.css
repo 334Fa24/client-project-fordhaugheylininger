@@ -181,8 +181,8 @@ img {
 }
 
 .page-pic {
-    height: 300px;
     padding-bottom: 0;
+    background-color: #5C755E;
 }
 
 h2 {
