@@ -379,15 +379,15 @@ h1 {
 }
 
 .about-row {
-    background-color: #5C755E;
+    background-color: #A97D5D;
     color: #fff9ed;
     border-radius: 7px;
     margin: 40px 30% 40px 20px;
     padding: 10px 20px;
-    padding-top: 0;
+    padding-top: 10px;
     padding-right: 40px;
     
-    outline: solid #5C755E 2px;
+    outline: solid #A97D5D 2px;
     outline-offset: 13px;
 }
 
@@ -598,6 +598,10 @@ input {
     .ffgtitle {
         margin: 46px 0;
         background-color: #A97D5D;
+    }
+    
+    .pep {
+        margin-bottom: 20px;
     }
 }
 
