@@ -181,6 +181,7 @@ img {
 
 .page-pic {
     height: 300px;
+    padding-bottom: 0;
 }
 
 h2 {
@@ -352,11 +353,21 @@ h1 {
     padding: 5px;
     text-align: left;
     background-color: #fff9ed;
-    color: #5C755E    
+    color: #5C755E  ;  
 }
 
 
 /*style rules for about us page*/
+.ffgtitle {
+    background-color: #5C755E;
+    color: #fff9ed;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0 170px;
+    border-radius: 0 0 10px 10px;
+    filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+}
+
 .bioig {
     padding: 50px;
 }
@@ -372,6 +383,7 @@ h1 {
     border-radius: 7px;
     margin: 40px 30% 40px 20px;
     padding: 10px 20px;
+    padding-top: 0;
     padding-right: 40px;
     
     outline: solid #5C755E 2px;
@@ -384,7 +396,7 @@ h1 {
     height: 400px;
     
     right: -150px;
-    top: 950px;
+    top: 600px;
     z-index: 1;
     
     overflow: hidden;
@@ -580,6 +592,11 @@ input {
     .booking {
         display: block;
         width: 90%;
+    }
+    
+    .ffgtitle {
+        margin: 46px 0;
+        background-color: #A97D5D;
     }
 }
 
