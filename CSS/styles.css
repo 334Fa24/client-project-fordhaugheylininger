@@ -179,6 +179,10 @@ img {
     object-fit: cover;
 }
 
+.page-pic {
+    height: 300px;
+}
+
 h2 {
     text-align: center;
 }
@@ -277,7 +281,7 @@ h1 {
     color: #fff9ed;
     padding: 10px;
     text-align: left;
-    border-radius: 10px
+    border-radius: 10px;
 }
 
 .addon {
