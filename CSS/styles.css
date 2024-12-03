@@ -168,11 +168,6 @@ main {
     overflow-x: hidden;
 }
 
-.intro {
-    padding: 20px;
-    padding-top: 0;
-}
-
 img {
     width: 100%;
     display: block;
@@ -186,13 +181,17 @@ img {
     background-color: #5C755E;
 }
 
-img .intro-pic {
+img.intro-pic {
     padding-bottom: 0;
-    background-color: #5C755E;
+}
+
+#introduction {
+    padding-top: 2%;
 }
 
 h2 {
     text-align: center;
+    font-weight: bold;
 }
 
 img .column-right {
@@ -248,7 +247,7 @@ h1 {
     padding-top: 0;
 }
 
-#introduction h3 {
+#introduction h2 {
     font-weight: bold;
 }
 
@@ -270,12 +269,31 @@ h1 {
 #choose li {
     padding-top: 1%;
     padding-bottom: 1%;
-    padding-right: 1%;
+    margin-right: 3%;
+    margin-left: 0;
+    
+}
+
+#reviews {
+    padding-top: 5%;
+}
+
+.pep2 {
+    margin: 20px;
+    margin-bottom: 100px;
+    background-color: #5C755E;
+    padding: 10px;
+    border-radius: 7px;
+    color: #fff9ed;
+    
+    outline: solid #5C755E 2px;
+    outline-offset: 13px;
 }
 
 #reviews h1 {
-    text-align: left;
+    text-align: center;
     padding-left: 25px;
+    padding-top: 5%;
 }
 
 #reviews {
@@ -288,17 +306,25 @@ h1 {
     padding-right: 1%;
 }
 .column-2 img {
-    margin-top: 10%;
+    margin-top: 2%;
 }
 
-#conclusion li {
+.conclusion-row {
+    background-color: #A97D5D;
+    color: #fff9ed;
+    border-radius: 7px;
+    margin: 2%;
+    padding: 2%;
+    margin-top: 3%;
+    margin-bottom: 10%;
+    outline: solid #A97D5D 2px;
+    outline-offset: 13px;
+}
+
+.conclusion-row li {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 35px;
-}
-
-#conclusion {
-    background-color: #fff9ed;
 }
 
 /*Style rules for 3 column layout*/
@@ -340,6 +366,11 @@ h1 {
 /*Style rules for 2 column layout*/
 .column-2 {
     float: left;
+    width: 50%;
+}
+
+.column-1 {
+    float: right;
     width: 50%;
 }
 
